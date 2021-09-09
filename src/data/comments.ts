@@ -1,3 +1,5 @@
+import { dir } from "console"
+
 export type CommentType = {
   username: string;
   userImagePath: string;
@@ -7,6 +9,7 @@ export type CommentType = {
 }
 
 export const comments: CommentType[] = [
+  
   {
     username: 'Lisa',
     userImagePath: '/profileImages/lisa.jpg',
